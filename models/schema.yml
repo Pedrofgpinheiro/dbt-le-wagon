@@ -12,7 +12,7 @@ sources:
             description: date of sale
           - name: orders_id
             description: order of sale
-          - name: ptd_id
+          - name: product_id
             description: product id
           - name: revenue
             description: revenue of the sale
