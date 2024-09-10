@@ -7,7 +7,7 @@ sources:
     schema: gwz_raw_data
     tables:
       - name: sales
-        identifier: raw_gz_sales
+        identifier: raw_gwz_sales
         description: sales of Greenweez / we have on row per product_id found in each orders_id
         columns:
           - name: date_date
@@ -23,7 +23,7 @@ sources:
         tests:
           - unique:
               column_name: "(orders_id || '-' || pdt_id)"
-      - name: product
+      - name: products
         identifier: raw_gz_product
         description: produst of Greenweez
         columns:
